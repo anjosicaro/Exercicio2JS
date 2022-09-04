@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let n1 = parseInt(prompt("Primeiro número"));
+      let n2 = parseInt(prompt("Segundo número"));
+      let op = parseInt(
+        prompt("1.Adição" + "2.Subtração" + "3.Multiplcação" + "4.Divisão")
+      );
+      let resultado
+
+      switch (op) {
+        case 1:
+          resultado = n1 + n2;
+          document.write("A soma dos valores é: " + resultado);
+          break;
+          case 2:
+           resultado = n1 - n2;
+          document.write("A subtração dos valores é: " + resultado);
+          break;
+          case 3:
+          resultado = n1 * n2;
+          document.write("A multiplicação dos valores é: " + resultado);
+          break;
+          case 1:
+          resultado = n1 + n2;
+          document.write("A divisão dos valores é: " + resultado);
+          break;
+        default:
+          break;
+      }
+    </script>
+  </body>
+</html>
